@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:layout_weight="70">
+  
+  <ScrollView 
+  android:id="@+id/infoScroll"
+  android:layout_width="fill_parent"
+  android:layout_height="125dp"
+  android:minHeight="50dp"
+  android:fadeScrollbars="false"
+  android:fitsSystemWindows="true"
+  android:soundEffectsEnabled="true">
+  
+  
+  <TextView 
+  android:id="@+id/yourName"
+  android:text="This leads to DICE game which is one of the most popular game!!!"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:minHeight="50dp"  
+  />
+  
+  </ScrollView>
+  
+  
+  <EditText 
+  android:id="@+id/infoLengofDice"
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content"
+  android:layout_marginBottom="10dp"
+  android:inputType="number"
+  />
+  <LinearLayout
+  android:orientation="horizontal"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:layout_weight="30"
+  
+  >
+  <Button 
+  android:id="@+id/infoOk"
+  android:text="OK"
+  android:layout_weight="50"
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content"/>
+  
+  <Button 
+  android:id="@+id/infoCont"
+  android:text="Continue"
+  android:layout_weight="50"
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content"/>
+  
+  </LinearLayout>
+  
+    
+</LinearLayout>

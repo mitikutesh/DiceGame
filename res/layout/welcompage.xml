@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:background="@raw/backgrnd">
+  
+  <TextView
+  android:id="@+id/bgText" 
+  android:background="@raw/backgrnd"
+  android:textColor="#FF9900"
+  android:textSize="25sp"
+  android:typeface="serif"
+  android:textColorHighlight="#00cc00"
+  android:textStyle="bold"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:layout_weight="20"
+  />
+  
+  <LinearLayout 
+  	android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_weight="80"
+     >
+  
+  <Button 
+  android:id="@+id/welcomeOkbtn"
+  android:text="Continue to game!"
+  android:layout_weight="50"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:layout_marginBottom="10dp" 
+  />
+  
+  <Button 
+  android:id="@+id/welcomeCancelBtn"
+  android:text="Cancel"
+  android:layout_weight="50"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:layout_marginBottom="10dp"/>
+  </LinearLayout>
+    
+</LinearLayout>

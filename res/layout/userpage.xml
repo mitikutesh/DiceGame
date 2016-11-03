@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:layout_alignParentBottom = "true"
+  android:layout_alignParentTop = "true"
+  android:layout_alignParentLeft = "true"
+  android:layout_alignParentRight = "true"
+  android:layout_centerHorizontal = "true"
+  android:layout_centerVertical = "true"
+  android:background="@raw/backgrnd">
+  
+  <LinearLayout 
+  android:orientation="horizontal"
+  android:layout_width="match_parent"
+  android:layout_height="wrap_content"
+  android:layout_marginTop="25dp"
+  >
+  
+  <TextView 
+  android:text="Enter Player Name: "
+  android:textSize="12dp"
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content"
+  android:layout_weight="60"
+  android:layout_alignParentBottom = "true"
+  android:layout_alignParentLeft = "true"
+  />
+  
+  <EditText 
+  android:id="@+id/EnterName"
+  android:hint="your name..."
+  android:textSize="12dp"
+  android:background="@android:color/darker_gray"
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content"
+  android:layout_weight="40"
+  android:layout_alignParentBottom = "true"
+  android:layout_alignParentRight = "true"
+  />
+  </LinearLayout>
+  
+  
+  <LinearLayout
+  android:orientation="horizontal"
+  android:layout_width="match_parent"
+  android:layout_height="wrap_content"
+  android:layout_marginTop="50dp"
+   
+  >
+  <Button 
+  android:id="@+id/DataOkbtn"
+  android:text="OK"
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content"
+  android:layout_weight="50"
+  android:typeface="monospace"
+  android:layout_alignParentBottom = "true"
+  android:layout_alignParentLeft = "true"
+  />
+  
+  <Button 
+  android:id="@+id/DataCancelbtn"
+  android:text="Cancel"
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content"
+  android:layout_weight="50"
+  android:typeface="monospace"
+  android:layout_alignParentBottom = "true"
+  android:layout_alignParentRight = "true"
+   />
+  </LinearLayout>
+    
+</LinearLayout>
